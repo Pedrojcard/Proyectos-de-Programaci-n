@@ -1,0 +1,76 @@
+<!DOCTYPE html><!--html 5-->
+<html lang="en">
+<head><!--encabezado-->
+    <meta charset="UTF-8"><!--TAREA-->
+    <title>Mi primera web</title> 
+    <link rel="stylesheet" href="estilos.css"><!--css-->
+    <script src="script.js"></script>
+</head>
+<body><!--cuerpo de la página-->
+    <header id="titulo"><!--el id me ayudará a poner el estilo css-->
+        <div class="logo"><p class="logo_texto">Lista de deseos</p></div>
+        <nav class="menu">
+            <ul>
+                <li><a href="Index.html" class="estilo_texto ">Inicio</a></li>
+                <li><a href="Tienda.html" class="estilo_texto">Tienda</a></li>
+                <li><a href="Blog.html" class="estilo_texto">Blog</a></li>
+                <li><a href="Galeria.html" class="estilo_texto link-activo">Galeria</a></li>
+                <li><a href="Recomendaciones.html" class="estilo_texto">Recomendaciones</a></li>
+            </ul>
+        </nav>
+        <div class="login">
+            <form class="formulario">
+                <input class="form-control" type="text" name="user" placeholder="Usuario:"/>
+                <input class="form-control" type="password" name="password" placeholder="Contraseña:"/>
+                <input class="form-boton" type="submit" value="Acceder"/>
+            </form>
+        </div>
+    </header>
+    <div id="contenedor">
+        <div class="carrusel">
+        <img src="Imagenes/elec.jpg" class="carrusel_img" id="galeria_img"/>
+    <div class="descripción">
+        Aqui encontrarás opiniones sobre productos puestos a prueba y 
+        que lo han superado. Los siguientes productos te harán decir 
+        "He hecho una buena inversión".
+        </div>
+    </div>
+    <div id="lista">
+        <div class="producto">
+            <a target="new" href="#">
+                <img src="Imagenes/auricular.jpg" alt="Auriculares" 
+                    onmouseover="ver_img()" class="img_mini" />
+            </a>
+            <div class="nombre">Auriculares Inalámbricos a bluetooth</div>
+        </div>
+        <div class="producto">
+            <a target="new" href="#">
+                <img src="Imagenes/Disco.jpg" alt="Auriculares"
+                    onmouseover="ver_img()" class="img_mini"/>
+            </a>
+            <div class="nombre">Disco Duro Externo</div>
+        </div>
+        <div class="producto">
+            <a target="new" href="#">
+                <img src="Imagenes/impr.jpg" alt="Auriculares" 
+                    onmouseover="ver_img()" class="img_mini"/>
+            </a>
+            <div class="nombre">Impresora Multifuncional Epson EcoTank L3150</div>
+        </div>
+        <div class="producto">
+            <a target="new" href="#">
+                <img src="Imagenes/tecl.jpg" alt="Auriculares" 
+                    onmouseover="ver_img()" class="img_mini" />
+            </a>
+            <div class="nombre"> Teclado-Redragon K551-RGB-BA</div>
+        </div>
+        <div class="producto">
+            <a target="new" href="#">
+                <img src="Imagenes/jed.jpg" alt="Auriculares" 
+                    onmouseover="ver_img()" class="img_mini" />
+            </a>
+            <div class="nombre">Parlantes JEDEL USB M600</div>
+        </div>
+        
+</body>
+</html>

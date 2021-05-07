@@ -1,0 +1,226 @@
+body {
+    background-color: rgb(112, 110, 110);
+}
+
+.img_mini {
+    width: 125px;
+    height: 120px;
+    border-radius: 10px;
+}
+
+#titulo {
+    width: 100%;
+    height: 1.3cm;
+    background-color: rgb(37, 16, 156);
+    box-shadow: 2px 0px 2px #fdfdfd;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    z-index: 10;
+}
+
+.logo {
+    width: 10%;
+    height: auto;
+    position: relative;
+    float:left;
+    bottom: 20%;
+    left: 1%;
+}
+
+.logo_texto {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12pt;
+    font-weight: bold;
+    color: #fdfdfd;
+}
+
+.menu {
+    width: 60%;
+    height: auto;
+    position: relative;
+    float:left;
+    top: 10px;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    display: block;
+    float: left;
+    padding: 2px 5px 2px 5px;
+}
+
+.menu ul li:hover {
+    background-color: #8f0606;
+    border-bottom: solid 2px #3cff00;
+    color: #ffffff;
+}
+.estilo_texto {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10pt;
+    font-weight: bold; /*negrita*/
+    color: #fdfdfd;
+    text-decoration: none;
+}
+
+.estilo_titulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10pt;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    margin: 0px auto;
+    color: #1115d4, 1ppx 1px 0px #ffffff, 2px 2px 0px #8f0606;
+}
+
+.estilo_texto:hover {
+    background-color: #8f0606;
+    border-bottom: solid 2px #8f0606;
+    color: #fdfdfd;
+}
+
+.login {
+    width: 30%;
+    height: auto;
+    position: relative;
+    float:left;
+}
+
+.formulario {
+    float: left;
+}
+
+.form-control {
+    width: 36%;
+    height: 1.1cm;
+}
+
+.form-boton {
+    width: 20%;
+    height: 1.1cm;
+    background-color: #d66406;
+    color: #fdfdfd;
+}
+
+#contenedor {
+    width: 95%;
+    height: 80%;
+    background-color: rgb(230, 230, 230);
+    position: absolute;
+    top: 0.8cm;
+    left: 0;
+    right: 0;
+    bottom: -7cm;
+    margin: auto;
+}
+
+.carrusel {
+    width: 100%;
+    height: 400px;
+    background-color: rgb(22, 21, 88);
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    background-image: url('Imagenes/elec.jpg');
+    background-size: 150% auto;
+    background-position: center;
+    bottom: 4cm;
+}
+
+.descripción {
+    top: -65%;
+    left: 15%;
+    width: 70%;
+    height: auto;
+    background-color: rgba(156, 149, 149, 0.2);
+    font-family: cursive;
+    font-size: medium;
+    text-align: justify;
+    color: #fdfdfd;
+    text-shadow: 2px 2px 2px #5c5c5c;
+    position: relative;
+    z-index: 10;
+}
+
+.carrusel_img {
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+
+div.producto {
+    margin: 5px;
+    border: 1px solid rgb(92, 91, 91);
+    float: left;
+    width: 243px;
+    height: 258px;
+}
+
+div.producto:hover {
+    border: 1px solid rgb(182, 174, 174);
+}
+
+div.producto img {
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+
+div.nombre {
+    padding: 12px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.link-activo {
+    color: #51ff00;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14pt;
+}
+
+div.productoi {
+    margin: 5px;
+    border: 1px solid rgb(92, 91, 91);
+    float: left;
+    width: 243px;
+    height: 258px;
+    position: relative;
+    bottom: 4cm;
+}
+
+div.productoi:hover {
+    border: 1px solid rgb(182, 174, 174);
+}
+
+div.productoi img {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    bottom: -0.0cm;
+}
+
+div.nombrei {
+    padding: 12px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#contenedort {
+    width: 95%;
+    height: 60%;
+    background-color: rgb(230, 230, 230);
+    position: absolute;
+    top: -5cm;
+    left: 0;
+    right: 0;
+    bottom: -7cm;
+    margin: auto;
+}
